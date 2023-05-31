@@ -9,6 +9,7 @@ A pretty list for showing diagnostics, references, telescope results, quickfix a
 - pretty list of:
   - Diagnostics
   - LSP references
+  - LSP incoming_calls
   - LSP implementations
   - LSP definitions
   - LSP type definitions
@@ -142,6 +143,7 @@ Modes:
 - **document_diagnostics:** document diagnostics from the builtin LSP client
 - **workspace_diagnostics:** workspace diagnostics from the builtin LSP client
 - **lsp_references:** references of the word under the cursor from the builtin LSP client
+- **lsp_incoming_calls:** incoming_calls of the word under the cursor from the builtin LSP client
 - **lsp_definitions:** definitions of the word under the cursor from the builtin LSP client
 
 * **lsp_type_definitions:** type definitions of the word under the cursor from the builtin LSP client

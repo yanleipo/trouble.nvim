@@ -10,6 +10,7 @@ M.providers = {
   workspace_diagnostics = diagnostic.diagnostics,
   document_diagnostics = diagnostic.diagnostics,
   lsp_references = lsp.references,
+  lsp_incoming_calls = lsp.incomingCalls,
   lsp_implementations = lsp.implementations,
   lsp_definitions = lsp.definitions,
   lsp_type_definitions = lsp.type_definitions,
